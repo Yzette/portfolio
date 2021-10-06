@@ -29,6 +29,7 @@
             .presentationSmall_profile_image {
                 width: 50%;
                 clip-path: circle();
+                margin-bottom: 10px;
                 
                 
                 @media(min-width: $breakpointDesktop) {
@@ -51,9 +52,10 @@
 
         .presentationSmall_text {
             text-transform: uppercase;
+            text-align: center;
             
             @media(min-width: $breakpointDesktop) {
-                text-align: center;
+                
                 font-size: 1.2rem;
                 
                 
