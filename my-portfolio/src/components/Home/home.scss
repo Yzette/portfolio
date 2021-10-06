@@ -1,0 +1,154 @@
+@import '../../styles/vars';
+
+.home {
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    background: linear-gradient(to bottom, #d8daef, white);
+
+    @media(min-width: $breakpointDesktop) {
+        flex-direction: row;
+        justify-content: space-around;
+        padding-top: 100px;
+        
+    } 
+
+    .presentationSmall {
+        color: #3f4253;
+        width: 80%;
+        margin: auto;
+
+        @media(min-width: $breakpointDesktop) {
+            width: 50%;
+        } 
+        
+
+        .presentationSmall_profile {
+            text-align: center;
+
+            .presentationSmall_profile_image {
+                width: 50%;
+                clip-path: circle();
+                
+                
+                @media(min-width: $breakpointDesktop) {
+                    width: 35%;
+                    margin-bottom: 100px;
+                } 
+            }
+           
+        }
+
+        .presentationSmall_line {
+            
+            margin-left: auto;
+            margin-right: auto;
+            width: 300px;
+            height: 5px;
+            background: #3f4253 0% 0% no-repeat padding-box;
+            border-radius: 3px;
+        }
+
+        .presentationSmall_text {
+            text-transform: uppercase;
+            
+            @media(min-width: $breakpointDesktop) {
+                text-align: center;
+                font-size: 1.2rem;
+                
+                
+            } 
+        }
+    }
+
+    .menuPage {
+        width: 70%;
+        margin: auto;
+        text-align: center;
+        
+
+        @media(min-width: $breakpointDesktop) {
+            width: 40%;
+        } 
+
+        .menuPage_whoAmI {
+            padding: 1rem 1rem;
+            margin: 1rem auto;
+            border-radius: 10px;
+            background: linear-gradient(to bottom, #5f7470, #c9ead9);
+            padding-bottom: 1rem;
+
+            transition: all 0.3s;
+
+            .menuPage_whoAmI_icon {
+                width: 50px;
+            }
+
+            &:hover {
+                transform: scale(1);
+                background: linear-gradient(to bottom, #fdad17, #c9ead9);
+                box-shadow: 10px 10px 20px grey;
+              }
+        }
+
+        .menuPage_experience {
+            padding: 1rem 1rem;
+            margin: 1rem auto;
+            border-radius: 10px;
+            background: linear-gradient(to bottom right, #889696, #c9ead9);
+            padding-bottom: 1rem;
+
+            transition: all 0.3s;
+
+            .menuPage_experience_icon {
+                width: 50px;
+            }
+
+            &:hover {
+                transform: scale(1);
+                background: linear-gradient(to bottom, #fdad17, #c9ead9);
+                box-shadow: 10px 10px 20px grey;
+              }
+        }
+
+        .menuPage_project {
+            padding: 1rem 1rem;
+            margin: 1rem auto;
+            border-radius: 10px;
+            background: linear-gradient(to bottom right, #b8bdb5, #c9ead9);
+            padding-bottom: 1rem;
+
+            transition: all 0.3s;
+
+            .menuPage_project_icon {
+                width: 50px;
+            }
+
+            &:hover {
+                transform: scale(1);
+                background: linear-gradient(to bottom, #fdad17, #c9ead9);
+                box-shadow: 10px 10px 20px grey;
+              }
+        }
+
+        .menuPage_cv {
+            padding: 1rem 1rem;
+            margin: 1rem auto;
+            border-radius: 10px;
+            background: linear-gradient(to bottom right, #d2d4c8, #c9ead9);
+            padding-bottom: 1rem;
+
+            transition: all 0.3s;
+
+            .menuPage_cv_icon {
+                width: 50px;
+            }
+
+            &:hover {
+                transform: scale(1);
+                background: linear-gradient(to bottom, #fdad17, #c9ead9);
+                box-shadow: 10px 10px 20px grey;
+              }
+        }
+    }
+}
