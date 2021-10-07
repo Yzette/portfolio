@@ -1,0 +1,41 @@
+@import '../../styles/vars';
+
+
+.whoAmI {
+    // ne fonctionne pas
+    min-height: 100hv;
+    
+
+    .whoAmI_back {
+        width: 90px;
+    }
+
+    .whoAmI_title {
+        width: 50%;
+        margin: auto;
+        text-align: center;
+        background-color: $figColor;
+        color: $lightBlueColor;
+        border-radius: 10px;
+
+        @media(min-width: $breakpointDesktop) {
+            width: 40%;
+        } 
+    }
+
+    .whoAmI_text {
+        width: 80%;
+        margin: auto;
+        color: $figColor;
+        margin-top: 50px;
+        // ne fonctionne pas, peut être utiliser reset.scss
+        text-justify: inter-word;
+
+        @media(min-width: $breakpointDesktop) {
+            width: 70%;
+            margin-top: 90px;
+        } 
+
+    }
+    
+}

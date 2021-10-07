@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import kitsune from '../../assets/icons/kitsune.svg';
 import samurai from '../../assets/icons/samurai.svg';
@@ -8,10 +9,10 @@ import suzuri from '../../assets/icons/suzuri.svg';
 const MenuPage = () => (
     <div className="menuPage">
         <div className="menuPage_whoAmI">
-            <a href="" >
+            <Link to="/qui-suis-je" >
                 <img src={kitsune} alt="icon qui suis je" className="menuPage_whoAmI_icon" />
                 <h2>Qui suis je?</h2>
-            </a>
+            </Link>
         </div>
         <div className="menuPage_experience">
             <a href="">
