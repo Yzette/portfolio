@@ -1,13 +1,11 @@
 @import '../../styles/vars';
 
 .footer {
-    width: 90%;
-    margin-top: 60px;
     margin-right: auto;
     margin-left: auto;
-    background: linear-gradient(to bottom, #d8daef, #3f4253);
+    background-color: $figColor;
     text-align: center;
-    border-radius: 10px 100px / 120px;
+    
 
     @media(min-width: $breakpointDesktop) {
         display: flex;

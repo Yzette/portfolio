@@ -1,16 +1,17 @@
 @import '../../styles/vars';
 
 .header {
-    background: linear-gradient(to bottom, #3f4253, #d8daef);
+    background-color: $figColor;
 
     .header_logo {
-        width: 25%;
-        clip-path: circle();
-        margin: 5%;
+        width: 80px;
+        margin: 2px;
+        
 
         @media(min-width: $breakpointDesktop) {
-            width: 12%;
-            margin: 2%;
+            width: 100px;
+            
+            
             
         } 
 
