@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import './whoAmI.scss';
 
 import back from '../../assets/icons/back.svg';
+import baguette from '../../assets/icons/baguette.svg';
 
 
 const WhoAmI = () => (
@@ -18,8 +19,8 @@ const WhoAmI = () => (
             <p>Lors de cette expérience j’avais de fréquents contacts avec l’équipe de développeurs. Au fil de ces discussions, je me suis découverte un intérêt pour ce qui se passait derrière l’interface utilisateur.</p>
             <p>Je suis donc partie à la recherche d’une formation. L’école O’Clock m’a permis de me former de manière intensive aux bases du développement (HTML, CSS, PHP, POO, Javascript etc.) de me spécialiser (en React) et enfin de travailler sur un projet en équipe que j’ai présenté à ma certification.</p>
         </div>
+        <img src={baguette} alt="retour haut de page" className="toto"/>
     </div>
-
 );
 
 export default WhoAmI;

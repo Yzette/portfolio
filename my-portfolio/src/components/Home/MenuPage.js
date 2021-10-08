@@ -15,16 +15,16 @@ const MenuPage = () => (
             </Link>
         </div>
         <div className="menuPage_experience">
-            <a href="">
+            <Link to="">
                 <img src={samurai} alt="icon experience" className="menuPage_experience_icon" />
                 <h2>Experience</h2>
-            </a>
+            </Link>
         </div>
         <div className="menuPage_project">
-            <a href="">
+            <Link to="/projets">
                 <img src={origami} alt="icon projets" className="menuPage_project_icon" />
                 <h2>Projets</h2>
-            </a>
+            </Link>
         </div>
         <div className="menuPage_cv">
             <a href="">

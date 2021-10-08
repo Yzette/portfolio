@@ -6,10 +6,10 @@ import './home.scss';
 
 
 const Home = () => (
-    <div className="home">
+    <main className="home">
         <PresentationSmall />
         <MenuPage />
-    </div>
+    </main>
 );
 
 export default Home;

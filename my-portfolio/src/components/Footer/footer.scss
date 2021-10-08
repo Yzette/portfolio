@@ -1,10 +1,9 @@
 @import '../../styles/vars';
 
 .footer {
-    margin-right: auto;
-    margin-left: auto;
     background-color: $figColor;
     text-align: center;
+    
     
 
     @media(min-width: $breakpointDesktop) {

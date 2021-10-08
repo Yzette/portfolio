@@ -1,7 +1,10 @@
 @import '../../styles/vars';
 
 .header {
+    width: 100%;
     background-color: $figColor;
+    
+    
 
     .header_logo {
         width: 80px;

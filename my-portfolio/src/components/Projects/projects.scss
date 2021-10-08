@@ -1,0 +1,116 @@
+@import '../../styles/vars';
+
+.projects {
+    background-color: $blueDuckColor;
+    padding-bottom: 100px;
+    color: $darkFigColor;
+
+    .projects_back {
+        width: 90px;
+    }
+
+    .projects_title {
+        width: 50%;
+        margin: auto;
+        text-align: center;
+        background-color: $figColor;
+        color: $blueDuckColor;
+        border-radius: 10px;
+
+        @media(min-width: $breakpointDesktop) {
+            width: 40%;
+        }
+    }
+
+    .projects_introduction {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 0 50px 0;
+        
+        
+        .projects_introduction_icon {
+            width: 80px;
+        }
+    }
+
+    .projects_items {
+        width: 80%;
+        margin: auto;
+
+        @media(min-width: $breakpointDesktop) {
+            width: 60%;
+        } 
+
+        .projects_item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 2px solid $figColor;
+            border-radius: 10px;
+            padding: 10px;
+            margin-bottom: 50px;
+            background-color: $lightBlueDuckColor;
+            .projects-item_title {
+                display: flex;
+                padding-bottom: 20px;
+                
+                .projects_item_icon {
+                    width: 80px;
+                    padding-right: 10px;
+                }
+
+            }
+
+            .projects_item_line {
+                margin-left: auto;
+                margin-right: auto;
+                width: 200px;
+                height: 2px;
+                background: $figColor 0% 0% no-repeat padding-box;
+                border-radius: 3px;
+
+                @media(min-width: $breakpointDesktop) {
+                    width: 400px;
+                } 
+            }
+
+            .projects_item_text {
+                padding-top: 20px;
+                text-align: justify;
+            }
+            
+
+            .projects_item_links {
+                display: flex;
+                padding: 5px;
+                align-items: center;
+                
+                .projects_item_links_more {
+                    padding-right: 30px;
+
+                    @media(min-width: $breakpointDesktop) {
+                        padding-right: 300px;
+                    } 
+                }
+
+                .projects_item_links_github {
+                    width: 80px;
+                }
+                
+            }
+        }
+    }
+
+    .projects_soon {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .projects_soon_icon {
+            width: 150px;
+        }
+    }
+}

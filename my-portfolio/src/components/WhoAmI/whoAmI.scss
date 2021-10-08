@@ -3,7 +3,9 @@
 
 .whoAmI {
     // ne fonctionne pas
-    min-height: 100hv;
+    min-height: 100%;
+    background-color: $yellowColor;
+    padding-bottom: 100px;
     
 
     .whoAmI_back {
@@ -15,7 +17,7 @@
         margin: auto;
         text-align: center;
         background-color: $figColor;
-        color: $lightBlueColor;
+        color: $yellowColor;
         border-radius: 10px;
 
         @media(min-width: $breakpointDesktop) {
@@ -24,12 +26,13 @@
     }
 
     .whoAmI_text {
+        display: flex;
+        flex-direction: column;
         width: 80%;
         margin: auto;
         color: $figColor;
         margin-top: 50px;
-        // ne fonctionne pas, peut être utiliser reset.scss
-        text-justify: inter-word;
+        text-align: justify;
 
         @media(min-width: $breakpointDesktop) {
             width: 70%;
@@ -37,5 +40,7 @@
         } 
 
     }
+
+    
     
 }
