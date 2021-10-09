@@ -1,7 +1,10 @@
 @import '../../styles/vars';
 
 .experience {
-    background-color: #8f91c0;
+    //couleur à réflechir
+    background-color: #e7f969;
+    padding-bottom: 50px;
+    
 
     .experience_back {
         width: 90px;
@@ -12,22 +15,34 @@
         margin: auto;
         text-align: center;
         background-color: $figColor;
-        color: #8f91c0;
+        color: #e7f969;
         border-radius: 10px;
         margin-bottom: 50px;
 
         @media(min-width: $breakpointDesktop) {
             width: 40%;
+            margin-bottom: 100px;
         } 
     }
     .experience_introduction {
         width: 80%;
         margin: auto;
         margin-bottom: 50px;
+        color: $darkFigColor;
+        @media(min-width: $breakpointDesktop) {
+            width: 70%;
+            text-align: center;
+            margin-bottom: 100px;
+        } 
     }
 
     .experience_items {
+        display: flex;
+        flex-wrap: wrap;
+        color: $darkFigColor;
 
+        
+        
         .experience_line {
             margin-left: auto;
             margin-right: auto;
@@ -39,7 +54,8 @@
             margin-top: 50px;
 
             @media(min-width: $breakpointDesktop) {
-                width: 300px;
+                display: none;
+                
             } 
         }
 
@@ -47,6 +63,13 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+
+            @media(min-width: $breakpointDesktop) {
+                width: 30%;
+                
+                
+                
+            } 
             
             .experience_item_image {
                 width: 70%;
@@ -56,13 +79,30 @@
                 border: 2px solid $figColor;
                 border-radius: 10px;
                 width: 60%;
+
+                @media(min-width: $breakpointDesktop) {
+                    width: 70%;
+                    
+                } 
             }
 
             .experience_item_list_2 {
                 border: 2px solid $figColor;
                 border-radius: 10px;
                 width: 60%;
+
+                @media(min-width: $breakpointDesktop) {
+                    width: 70%;
+                    
+                } 
             }
         }
+
+        @media(min-width: $breakpointDesktop) {
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: space-around;
+        }
+        
     }
 }
