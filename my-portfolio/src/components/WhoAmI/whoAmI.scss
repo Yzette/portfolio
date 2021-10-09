@@ -19,6 +19,7 @@
         background-color: $figColor;
         color: $yellowColor;
         border-radius: 10px;
+        
 
         @media(min-width: $breakpointDesktop) {
             width: 40%;
@@ -28,16 +29,21 @@
     .whoAmI_text {
         display: flex;
         flex-direction: column;
-        width: 80%;
+        width: 70%;
         margin: auto;
         color: $figColor;
         margin-top: 50px;
         text-align: justify;
 
         @media(min-width: $breakpointDesktop) {
-            width: 70%;
+            width: 60%;
             margin-top: 90px;
         } 
+
+        .whoAmI_text_question{
+            font-weight: bold;
+            text-align: center;
+        }
 
     }
 

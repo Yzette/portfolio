@@ -11,7 +11,7 @@ const PresentationSmall = () => (
         <div className="presentationSmall_text">
             <h1>Alexandrine Heutte</h1>
             <h2>Développeuse web</h2>
-            <p>A la recherche d'une première expérience</p>
+            <p>Bienvenu sur mon site, j'espère qu'il vous permettra de faire connaissance avec moi. N'hésitez pas à me contacter pour plus d'informations.</p>
         </div>
     </div>
 );

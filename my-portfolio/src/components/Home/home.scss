@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
     padding-bottom: 20px;
-    padding-top: 20px;
+    padding-top: 10px;
     background-color: $lightBlueColor;
    
 
@@ -81,12 +81,12 @@
             border-radius: 10px;
             background-color: $figColor;
             padding-bottom: 1rem;
-            color: white;
+            max-height: 125px;
 
             transition: all 0.3s;
 
             .menuPage_whoAmI_icon {
-                width: 50px;
+                width: 70px;
             }
 
             &:hover {
@@ -102,11 +102,12 @@
             border-radius: 10px;
             background-color: $figColor;
             padding-bottom: 1rem;
+            max-height: 125px;
 
             transition: all 0.3s;
 
             .menuPage_experience_icon {
-                width: 50px;
+                width: 70px;
             }
 
             &:hover {
@@ -122,11 +123,12 @@
             border-radius: 10px;
             background-color: $figColor;
             padding-bottom: 1rem;
+            max-height: 125px;
 
             transition: all 0.3s;
 
             .menuPage_project_icon {
-                width: 50px;
+                width: 70px;
             }
 
             &:hover {
@@ -142,11 +144,12 @@
             border-radius: 10px;
             background-color: $figColor;
             padding-bottom: 1rem;
+            max-height: 125px;
 
             transition: all 0.3s;
 
             .menuPage_cv_icon {
-                width: 50px;
+                width: 70px;
             }
 
             &:hover {
