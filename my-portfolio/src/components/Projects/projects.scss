@@ -1,7 +1,7 @@
 @import '../../styles/vars';
 
 .projects {
-    background-color: $blueDuckColor;
+    background-color: #98b8b5;
     padding-bottom: 100px;
     color: $darkFigColor;
 
@@ -14,7 +14,7 @@
         margin: auto;
         text-align: center;
         background-color: $figColor;
-        color: $blueDuckColor;
+        color: #98b8b5;
         border-radius: 10px;
 
         @media(min-width: $breakpointDesktop) {
@@ -89,6 +89,7 @@
                 align-items: center;
                 
                 .projects_item_links_more {
+                    width: 85px;
                     padding-right: 30px;
 
                     @media(min-width: $breakpointDesktop) {

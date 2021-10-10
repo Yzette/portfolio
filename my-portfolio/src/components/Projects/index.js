@@ -9,6 +9,7 @@ import orando from '../../assets/icons/orando.svg';
 import github from '../../assets/icons/github.svg';
 import logo from '../../assets/images/logo-portfolio.png';
 import coming from '../../assets/icons/coming-soon.png';
+import more from '../../assets/icons/more.svg';
 
 const Projects = () => (
     <div className="projects">
@@ -33,7 +34,7 @@ const Projects = () => (
                 </p>
                 <div className="projects_item_links">
                     <Link to="/projets/orando">
-                    <p className="projects_item_links_more"> -> plus de détails </p>
+                    <img src={more} alt="icone plus de details" className="projects_item_links_more"/>
                     </Link>
                     <a href="https://github.com/Yzette/O-Rando-React/tree/develop" target="_blank">
                         <img className="projects_item_links_github" src={github}/>
@@ -51,7 +52,7 @@ const Projects = () => (
                 </p>
                 <div className="projects_item_links">
                     <Link to="/projets/mon-portfolio">
-                    <p className="projects_item_links_more"> -> plus de détails </p>
+                    <img src={more} alt="icone plus de details" className="projects_item_links_more"/>
                     </Link>
                     <a href="https://github.com/Yzette/portfolio/tree/main/my-portfolio" target="_blank">
                         <img className="projects_item_links_github" src={github}/>

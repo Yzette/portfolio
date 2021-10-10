@@ -2,7 +2,7 @@
 
 .experience {
     //couleur à réflechir
-    background-color: #e7f969;
+    background-color: #b1cac7;
     padding-bottom: 50px;
     
 
@@ -15,7 +15,7 @@
         margin: auto;
         text-align: center;
         background-color: $figColor;
-        color: #e7f969;
+        color: #b1cac7;
         border-radius: 10px;
         margin-bottom: 50px;
 
@@ -73,6 +73,7 @@
             
             .experience_item_image {
                 width: 70%;
+                border-radius: 25% 10%;
             }
 
             .experience_item_list_1 {
