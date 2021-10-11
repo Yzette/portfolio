@@ -5,6 +5,7 @@ import WhoAmI from '../WhoAmI';
 import Projects from '../Projects';
 import ScrollToTop from '../../functions/scrollToTop';
 import Experience from '../Experience';
+import Cv from '../Cv';
 
 
 const Pages = () => (
@@ -13,6 +14,9 @@ const Pages = () => (
             <ScrollToTop />
         </Route>
         <switch>
+            <Route exact path="/cv">
+                <Cv />
+            </Route>
             <Route exact path="/experience">
                 <Experience />
             </Route>

@@ -27,10 +27,10 @@ const MenuPage = () => (
             </Link>
         </div>
         <div className="menuPage_cv">
-            <a href="">
+            <Link to="/cv">
                 <img src={folders} alt="icon cv" className="menuPage_cv_icon" />
                 <h2>CV</h2>
-            </a>
+            </Link>
         </div>
     </div>
 );
