@@ -80,6 +80,9 @@
             .projects_item_text {
                 padding-top: 20px;
                 text-align: justify;
+                @media(min-width: $breakpointDesktop) {
+                    width: 70%;
+                } 
             }
             
 
@@ -91,6 +94,7 @@
                 .projects_item_links_more {
                     width: 85px;
                     padding-right: 30px;
+                    display: none;
 
                     @media(min-width: $breakpointDesktop) {
                         padding-right: 300px;

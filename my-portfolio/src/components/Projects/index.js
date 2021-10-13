@@ -30,7 +30,8 @@ const Projects = () => (
                 </div>
                 <div className="projects_item_line"></div>
                 <p className="projects_item_text">A l'occasion de ma formation, gestion et développement d'un projet from scratch : O’Rando.
-                Il s’agit d’une application pour tous les randonneurs (du pratiquant occasionnel au passionné invétéré). Elle vous permet de proposer vos randonnées (description, point de départ, horaires etc.), mais aussi de participer à des randonnées proposées par d'autres. Vous avez même la possibilité de contacter un organisateur si besoin (pour obtenir plus de détails ou poser des questions).
+                Il s’agit d’une application pour tous les randonneurs (du pratiquant occasionnel au passionné invétéré). Elle vous permet de proposer vos randonnées (description, point de départ, horaires etc.), mais aussi de participer à des randonnées proposées par d'autres. Vous avez même la possibilité de contacter un organisateur si besoin (pour obtenir plus de détails ou poser des questions).<br/>
+                Technologies utilisées: React-Redux, Sass et React-router-dom.
                 </p>
                 <div className="projects_item_links">
                     <Link to="/projets/orando">
@@ -47,8 +48,7 @@ const Projects = () => (
                     <h2>Mon portfolio</h2>
                 </div>
                 <div className="projects_item_line"></div>
-                <p className="projects_item_text">A l'occasion de ma formation, gestion et développement d'un projet from scratch : O’Rando.
-                Il s’agit d’une application pour tous les randonneurs (du pratiquant occasionnel au passionné invétéré). Elle vous permet de proposer vos randonnées (description, point de départ, horaires etc.), mais aussi de participer à des randonnées proposées par d'autres. Vous avez même la possibilité de contacter un organisateur si besoin (pour obtenir plus de détails ou poser des questions).
+                <p className="projects_item_text">Le portfolio que vous visitez actuellement. J'espère que vous faites une bonne viste. <br/> Ce projet a été réalisé à l'aide de create-react-app, Sass et React-router-dom.
                 </p>
                 <div className="projects_item_links">
                     <Link to="/projets/mon-portfolio">
