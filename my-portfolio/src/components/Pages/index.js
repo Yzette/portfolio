@@ -5,6 +5,7 @@ import WhoAmI from '../WhoAmI';
 import Projects from '../Projects';
 import ScrollToTop from '../../functions/scrollToTop';
 import Experience from '../Experience';
+import Error from '../Error';
 import Cv from '../Cv';
 
 
@@ -28,6 +29,9 @@ const Pages = () => (
             </Route>
             <Route exact path="/">
                 <Home />
+            </Route>
+            <Route path="*">
+                <Error />
             </Route>
         </switch>
     </div>

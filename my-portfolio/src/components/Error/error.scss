@@ -1,0 +1,99 @@
+@import '../../styles/vars';
+
+
+.error {
+    background-color: $lightBlueColor;
+    padding-top: 70px;
+    height: 100vh;
+    color: $figColor;
+
+    @media(min-width: $breakpointDesktop) {
+        padding-top: 150px;
+    } 
+    
+    
+
+    .error_title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .error_title_num {
+            font-size: 6rem;
+
+            @media(min-width: $breakpointDesktop) {
+                font-size: 8rem;
+            } 
+            
+        }
+
+        .error_title_icon {
+            animation: animate1 6s linear infinite alternate;
+            width: 130px;
+
+            @media(min-width: $breakpointDesktop) {
+                width: 150px;
+                padding-left: 10px;
+                padding-right: 10px;
+            } 
+            
+        }
+
+        // animation
+
+        @keyframes animate1 {
+            0% {
+                opacity: 0;
+              }
+              100% {
+                opacity: 1;
+                transform: rotate(360deg);
+              }
+        }
+
+
+    }
+
+    .error_text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 80px;
+
+        @media(min-width: $breakpointDesktop) {
+            font-size: 1.5rem;
+        } 
+
+        .error_text_icon{
+            width: 60px;
+
+            @media(min-width: $breakpointDesktop) {
+                width: 70px;
+            } 
+        }
+    }
+
+    .error_return {
+        text-align: center;
+        
+        .error_return_text {
+            width: 50%;
+            margin: auto;
+            background-color: $figColor;
+            border-radius: 10px;
+
+            @media(min-width: $breakpointDesktop) {
+                width: 20%;
+                font-size: 2rem;
+
+                &:hover {
+                    transform: scale(1);
+                    background-color: #2c2d38;
+                    box-shadow: 10px 10px 20px grey;
+                  }
+            } 
+        }
+    }
+    
+    
+}
