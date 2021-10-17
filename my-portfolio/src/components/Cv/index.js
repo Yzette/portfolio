@@ -18,7 +18,7 @@ const Cv = () => (
         </Link>
         <h1 className="cv_title">Curiculum vitae</h1>
         <div className="cv_link">
-            <p className="cv_link_legend">Mon CV complet ici</p>
+            <p className="cv_link_legend">Mon CV complet à télécharger ici :</p>
             <a href={curiculum} download>
                 <img src={resume} alt="lien vers mon cv"/>
             </a>
