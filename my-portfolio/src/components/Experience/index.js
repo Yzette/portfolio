@@ -27,7 +27,7 @@ const Experience = () => (
                 <h3>Savoir-être</h3>
                 <div className="experience_item_list_1">
                     <ul>
-                        <li>Empathie/ à l'écoute</li>
+                        <li>Empathie / A l'écoute</li>
                         <li>Pédagogue</li>
                         <li>Patiente</li>
                         <li>Adaptable</li>
@@ -40,7 +40,7 @@ const Experience = () => (
                         <li>Préparation des cours</li>
                         <li>Correction des copies</li>
                         <li>Rédaction de compte rendu</li>
-                        <li>S'adapter au public en formation (classe, cours privé,formation adulte)</li>
+                        <li>S'adapter au public en formation (classe, cours privé, formation adulte)</li>
                     </ul>
                 </div>
             

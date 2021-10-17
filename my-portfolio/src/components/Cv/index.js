@@ -7,6 +7,7 @@ import education from '../../assets/icons/education.svg';
 import teaching from '../../assets/icons/teaching.svg';
 import office from '../../assets/icons/office.svg';
 import nihon from '../../assets/icons/japan-flag.svg';
+import curiculum from '../../assets/docs/heutte.pdf';
 
 import './cv.scss';
 
@@ -18,7 +19,7 @@ const Cv = () => (
         <h1 className="cv_title">Curiculum vitae</h1>
         <div className="cv_link">
             <p className="cv_link_legend">Mon CV complet ici</p>
-            <a href="https://www.canva.com/design/DAEjsOtYNcs/695TB93fT-FIxRdY-nuHLw/view?utm_content=DAEjsOtYNcs&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank">
+            <a href={curiculum} download>
                 <img src={resume} alt="lien vers mon cv"/>
             </a>
         </div>

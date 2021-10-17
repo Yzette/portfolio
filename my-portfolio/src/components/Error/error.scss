@@ -6,6 +6,7 @@
     padding-top: 70px;
     height: 100vh;
     color: $figColor;
+    overflow: hidden;
 
     @media(min-width: $breakpointDesktop) {
         padding-top: 150px;

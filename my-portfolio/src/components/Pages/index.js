@@ -14,26 +14,30 @@ const Pages = () => (
         <Route >
             <ScrollToTop />
         </Route>
-        <switch>
-            <Route exact path="/cv">
-                <Cv />
-            </Route>
-            <Route exact path="/experience">
-                <Experience />
-            </Route>
+        <Switch>
             <Route exact path="/projets">
                 <Projects />
             </Route>
             <Route exact path="/qui-suis-je">
                 <WhoAmI />
             </Route>
+            <Route exact path="/projets">
+                <Projects />
+            </Route>
+            <Route exact path="/experience">
+                <Experience />
+            </Route>
+            <Route exact path="/cv">
+                <Cv />
+            </Route>
             <Route exact path="/">
                 <Home />
             </Route>
-            <Route path="*">
+            <Route path='*'>
                 <Error />
             </Route>
-        </switch>
+            
+        </Switch>
     </div>
 
 );

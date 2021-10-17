@@ -29,9 +29,12 @@
         margin: auto;
         margin-bottom: 50px;
         color: $darkFigColor;
+        text-align: center;
+        font-size: 1.1rem;
+        
         @media(min-width: $breakpointDesktop) {
             width: 70%;
-            text-align: center;
+            font-size: 1.3rem;
             margin-bottom: 100px;
         } 
     }
