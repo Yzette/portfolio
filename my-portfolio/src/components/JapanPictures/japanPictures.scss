@@ -1,0 +1,15 @@
+@import '../../styles/vars';
+
+
+.japanPictures {
+    
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+
+
+
+    .japanPictures_item {
+       width: 100px;
+    }
+}

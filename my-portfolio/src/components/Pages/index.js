@@ -7,6 +7,8 @@ import ScrollToTop from '../../functions/scrollToTop';
 import Experience from '../Experience';
 import Error from '../Error';
 import Cv from '../Cv';
+// en attente de la construction de la page bonus
+import JapanPictures from '../JapanPictures';
 
 
 const Pages = () => (
