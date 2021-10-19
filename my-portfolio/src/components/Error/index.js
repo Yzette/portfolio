@@ -17,7 +17,7 @@ const Error = () => (
             <img className="error_text_icon" src={sad} alt="icone triste" />
             cette page n'existe pas
         </p>
-        <Link className="error_return" to="">
+        <Link className="error_return" to="/">
             <h2 className="error_return_text">Retour page Accueil</h2>
         </Link>
     </div>

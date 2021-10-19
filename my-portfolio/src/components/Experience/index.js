@@ -27,11 +27,11 @@ const Experience = () => (
                 <h3>Savoir-être</h3>
                 <div className="experience_item_list_1">
                     <ul>
-                        <li>Empathie / A l'écoute</li>
+                        <li>Empathie / Sens de l'écoute</li>
                         <li>Pédagogue</li>
-                        <li>Patiente</li>
-                        <li>Adaptable</li>
-                        <li>Claire et concise</li>
+                        <li>Patience</li>
+                        <li>Adaptabilité</li>
+                        <li>Claireté et concision</li>
                     </ul>
                 </div>
                 <h3>Tâches accomplies</h3>
@@ -40,7 +40,7 @@ const Experience = () => (
                         <li>Préparation des cours</li>
                         <li>Correction des copies</li>
                         <li>Rédaction de compte rendu</li>
-                        <li>S'adapter au public en formation (classe, cours privé, formation adulte)</li>
+                        <li>Adaptation au public en rmation (classe, cours privé, formation adulte)</li>
                     </ul>
                 </div>
             
@@ -53,10 +53,10 @@ const Experience = () => (
                 <h3>Savoir-être</h3>
                 <div className="experience_item_list_1">
                     <ul>
-                        <li>Bonne capacité d'adaptation</li>
-                        <li>Organisée</li>
+                        <li>Bonne Adaptabilité</li>
+                        <li>Organisation</li>
                         <li>Curiosité</li>
-                        <li>Sociable</li>
+                        <li>Sociabilité</li>
                         <li>Bonne capacité d'apprentissage</li>
                     </ul>
                 </div>
@@ -81,10 +81,10 @@ const Experience = () => (
                 <div className="experience_item_list_1">
                     <ul>
                         <li>Sérieuse</li>
-                        <li>Rigoureuse</li>
+                        <li>Rigueur</li>
                         <li>Bonne capacité d'analyse</li>
-                        <li>Autonome</li>
-                        <li>Créative</li>
+                        <li>Autonomie</li>
+                        <li>Créativité</li>
                     </ul>
                 </div>
                 <h3>Tâches accomplies</h3>

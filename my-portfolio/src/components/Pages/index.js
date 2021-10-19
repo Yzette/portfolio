@@ -35,7 +35,7 @@ const Pages = () => (
             <Route exact path="/">
                 <Home />
             </Route>
-            <Route path='*'>
+            <Route path="/*">
                 <Error />
             </Route>
             

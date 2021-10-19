@@ -1,0 +1,146 @@
+<head>
+    <style>
+        body {
+            background-color: #c9ead9;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        a {
+            color: #c9ead9;
+            text-decoration: none;
+
+        }
+
+        .error {
+            padding-top: 150px;
+            height: 100vh;
+            color: #3f4253;
+            overflow: hidden;
+
+        }
+
+
+
+        .error_title {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .error_title_num {
+            font-size: 10rem;
+
+
+        }
+
+        .error_title_icon {
+            animation: animate1 6s linear infinite alternate;
+            width: 180px;
+
+        }
+
+
+
+        @keyframes animate1 {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+                transform: rotate(360deg);
+            }
+        }
+
+
+
+
+        .error_text {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 80px;
+            font-size: 2rem;
+
+        }
+
+        .error_text_icon {
+            width: 100px;
+
+        }
+
+
+        .error_return {
+            text-align: center;
+            font-size: 1.5rem;
+        }
+
+        .error_return_text {
+            width: 40%;
+            margin: auto;
+            background-color: #3f4253;
+            border-radius: 10px;
+            padding: 2rem;
+        }
+
+        .error_return_text:hover {
+            transform: scale(1);
+            background-color: #2c2d38;
+            box-shadow: 10px 10px 20px grey;
+        }
+
+        @media screen and(min-width: 960px) {
+            .error {
+                padding-top: 150px;
+            }
+
+            .error_title_num {
+                font-size: 8rem;
+            }
+
+            .error_title_icon {
+                width: 150px;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+
+            .error_text {
+                font-size: 1.5rem;
+            }
+
+            .error_text_icon {
+                width: 70px;
+            }
+
+            .error_return_text {
+                width: 20%;
+                font-size: 2rem;
+            }
+
+            .error_return_text:hover {
+                transform: scale(1);
+                background-color: #2c2d38;
+                box-shadow: 10px 10px 20px grey;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="error">
+        <h1 class="error_title">
+            <span class="error_title_num">4 </span>
+            <img class="error_title_icon" src="./error.svg" alt="icone erreur" />
+            <span class="error_title_num"> 4</span>
+        </h1>
+        <p class="error_text"> Oops,
+            <img class="error_text_icon" src="./sad.svg" alt="icone triste" />
+            cette page n'existe pas
+        </p>
+        <a class="error_return" href="https://portfolio-alexandrine-heutte.netlify.app/">
+            <h2 class="error_return_text">Retour page Accueil</h2>
+        </a>
+    </div>
+</body>
